@@ -1,0 +1,24 @@
+{
+  "name": "tiktok",
+  "version": "0.1.0",
+  "description": "TikTok API client",
+  "scripts": {
+    "build": "tsc"
+  },
+  "main": "lib/index.js",
+  "repository": "https://git.pyrosec.gg/project-ghost/tiktok",
+  "author": "project ghost",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "base64url": "^3.0.1",
+    "haxios": "^1.1.2",
+    "node-gzip": "^1.1.2",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^18.11.12",
+    "nice-repl": "^0.1.2",
+    "typescript": "^4.9.4"
+  }
+}
